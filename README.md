@@ -1,7 +1,7 @@
-mongodb
+mongodb 2.6
 =========
 
-Just installs mongodb and adds it to autostart.
+Just installs mongodb 2.6 and adds it to autostart.
 
 Example Playbook
 ----------------
