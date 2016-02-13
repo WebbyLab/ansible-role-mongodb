@@ -8,7 +8,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         mongodb
+         WebbyLab.mongodb
 
 License
 -------
