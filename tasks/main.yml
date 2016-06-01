@@ -1,9 +1,9 @@
 ---
 - name: Import the public key
-  apt_key:  keyserver=hkp://keyserver.ubuntu.com:80 id=7F0CEB10
+  apt_key:  keyserver=hkp://keyserver.ubuntu.com:80 id=EA312927
 
 - name: Add repository and reload local package
-  apt_repository:  repo='deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' update_cache=yes
+  apt_repository:  repo='deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse' update_cache=yes
 
 - name: Install the MongoDB
   apt: name=mongodb-org state=present
